@@ -1,0 +1,26 @@
+import kotlin.random.Random
+
+var someArray = mutableListOf<Int>()
+var counter = 0
+while (counter <= 15) {
+    someArray.add((1 until 10).random())
+    counter += 1
+}
+println(someArray)
+
+fun bubbleSort(someArray: MutableList<Int>) {
+    val size = someArray.size
+    for (i in 0 until size - 1) {
+        for (j in 0 until size - i - 1) {
+            if (someArray[j] > someArray[j + 1]) {
+                val temp = someArray[j]
+                someArray[j] = someArray[j + 1]
+                someArray[j + 1] = temp
+            }
+        }
+    }
+}
+
+    bubbleSort(someArray)
+
+println(someArray)
