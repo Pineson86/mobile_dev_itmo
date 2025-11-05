@@ -1,0 +1,78 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Android Studio generated files
+.gradle/
+.local/
+build/
+.intermediates/
+.profile/
+
+# Android Studio files
+*.iml
+.idea/
+captures/
+shaders/
+
+# Keystore
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Proguard folder
+proguard/
+
+# Log Files
+*.log
+
+# Android Coverage
+coverage/
+
+# Firebase
+google-services.json
+
+# Device state
+.device-state
+
+# Gradle
+.gradle/
+!gradle.properties
+
+# Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android
+!/app/src/main/res/
+!/app/src/main/java/
+!/app/src/main/AndroidManifest.xml
+!/app/build.gradle
+!/gradle.properties
+
+# Exclude app release files
+/app/build/outputs/
+/app/build/bundles/
+/app/build/intermediates/
+/app/build/tmp/
+
+# Don't exclude the gradle wrapper
+!/gradle/
+!/gradlew
+!/gradlew.bat
